@@ -1,0 +1,18 @@
+# frontend
+frontend/node_modules
+frontend/dist
+
+# backend
+backend/target
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# IntelliJ
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
