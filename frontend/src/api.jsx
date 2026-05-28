@@ -4,7 +4,6 @@ const api = axios.create({
   baseURL: "https://deutschmaster-production.up.railway.app"
 });
 
-// 🔐 Attach token automatically
 api.interceptors.request.use((config) => {
 
   const token = localStorage.getItem("token");
