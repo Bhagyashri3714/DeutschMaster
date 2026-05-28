@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { isAdmin } from "../utils/auth";
+import { isAdmin } from "../utils/Auth";
 import { useNavigate } from "react-router-dom";
 
 const QuizA1 = () => {

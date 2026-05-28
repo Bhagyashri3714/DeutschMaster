@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { isAdmin } from "../utils/auth";
+import { isAdmin } from "../utils/Auth";
 
 const GrammarA2 = () => {
 
