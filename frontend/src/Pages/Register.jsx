@@ -24,7 +24,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await await api.post("/auth/register", form);
+      await api.post("/auth/register", form);
 
       alert("Registration successful!");
       navigate("/login");
@@ -84,7 +84,8 @@ function Register() {
             <option value="ROLE_ADMIN">Admin</option>
           </select>
 
-          <button className="btn btn-success w-100">
+          <button type="submit"
+               className="btn btn-success w-100">
             Register
           </button>
 
