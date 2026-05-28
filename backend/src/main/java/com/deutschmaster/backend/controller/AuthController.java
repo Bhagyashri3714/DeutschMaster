@@ -10,7 +10,7 @@ import com.deutschmaster.backend.service.AuthService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+
 public class AuthController {
 
     @Autowired
