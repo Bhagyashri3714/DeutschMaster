@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "deutschmaster-production.up.railway.app"
+  baseURL: "https://deutschmaster-production.up.railway.app"
 });
 
 // 🔐 Attach token automatically

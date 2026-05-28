@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -22,7 +22,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:8080/auth/login", form);
+      const res = await await api.post("/auth/login", form);
 
       // store JWT + ROLE from backend
       localStorage.setItem("token", res.data.token);
