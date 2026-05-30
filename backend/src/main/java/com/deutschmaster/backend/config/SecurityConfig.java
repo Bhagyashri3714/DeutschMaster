@@ -39,7 +39,8 @@ public class SecurityConfig {
        configuration.setAllowedOriginPatterns(
     List.of(
         "http://localhost:5173",
-        "https://*.vercel.app"
+        "https://*.vercel.app",
+        "https://deutschmaster-1.onrender.com" // <-- Added your new Render URL
     )
 );
 
