@@ -23,6 +23,8 @@ function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
 
+    console.log("Register button clicked");
+
     try {
       await api.post("/auth/register", form);
 
